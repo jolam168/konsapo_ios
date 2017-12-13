@@ -1,0 +1,15 @@
+
+/* Class = "UITabBarItem"; title = "検索"; ObjectID = "5H0-Ro-her"; */
+"5H0-Ro-her.title" = "検索";
+
+/* Class = "UITabBarItem"; title = "新着"; ObjectID = "Ja5-9n-j5i"; */
+"Ja5-9n-j5i.title" = "新着";
+
+/* Class = "UITabBarItem"; title = "お知らせ"; ObjectID = "JnL-iS-FSy"; */
+"JnL-iS-FSy.title" = "お知らせ";
+
+/* Class = "UITabBarItem"; title = "ホーム"; ObjectID = "bHF-hF-XJP"; */
+"bHF-hF-XJP.title" = "ホーム";
+
+/* Class = "UITabBarItem"; title = "お気に入り"; ObjectID = "jE8-Lv-VBg"; */
+"jE8-Lv-VBg.title" = "お気に入り";

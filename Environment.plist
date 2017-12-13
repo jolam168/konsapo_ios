@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SearchUrl</key>
+	<string>https://konkatsu10.com/index.php?app_controller=search&amp;type=mid&amp;run=true&amp;category=&amp;category_PAL[]=match+or#search</string>
+	<key>RootUrl</key>
+	<string>https://konkatsu10.com/</string>
+	<key>MessageUrl</key>
+	<string>/index.php?app_controller=search&amp;type=message&amp;run=true&amp;pal=rec</string>
+	<key>NewsUrl</key>
+	<string>https://konkatsu10.com/index.php?app_controller=search&amp;type=news&amp;run=true&amp;category=news&amp;category_PAL[]=match%20comp</string>
+	<key>BookmarkUrl</key>
+	<string>/index.php?app_controller=search&amp;type=clip&amp;run=true&amp;pal=mid</string>
+</dict>
+</plist>
