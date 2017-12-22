@@ -21,11 +21,10 @@ class BaseTabBarViewController: UITabBarController,UITabBarControllerDelegate {
 	override func viewDidLoad() {
         super.viewDidLoad()
 		self.delegate = self
-		self.navigationItem.title = Bundle.main.object(forInfoDictionaryKey: "CFBundleDisplayName") as? String
+        self.navigationItem.title = Bundle.main.object(forInfoDictionaryKey: "CFBundleDisplayName") as? String
 		self.navigationController?.navigationBar.titleTextAttributes =  [NSFontAttributeName: UIFont.systemFont(ofSize: 17), NSForegroundColorAttributeName:UIColor.white]
         // Do any additional setup after loading the view.
-		
-		
+
     }
 	override func viewWillAppear(_ animated: Bool) {
 //		if let barItem = tabBar.items {
@@ -58,7 +57,29 @@ class BaseTabBarViewController: UITabBarController,UITabBarControllerDelegate {
 		
 	}
 	
-	
+    func titleView() -> UIView {
+        let title = UIView()
+        title.translatesAutoresizingMaskIntoConstraints = false
+        
+        let icon = UIImageView.init(image: UIImage.init(named: "AppIcon"))
+        
+        let label = UILabel()
+        label.text = Bundle.main.object(forInfoDictionaryKey: "CFBundleDisplayName") as? String
+        label.textColor = .white
+        label.adjustsFontSizeToFitWidth = true
+        label.backgroundColor = .red
+        
+        let views = ["icon" : icon, "label" : label]
+        for view in views.values {
+            view.translatesAutoresizingMaskIntoConstraints = false
+            title.addSubview(view)
+        }
+        title.addConstraints(NSLayoutConstraint.constraints(withVisualFormat: "H:|-[icon]-[label]-|", options: .alignAllTop, metrics: nil, views: views))
+        title.addConstraints(NSLayoutConstraint.constraints(withVisualFormat: "V:|-[icon]-|", options: .alignAllTop, metrics: nil, views: views))
+        title.addConstraints(NSLayoutConstraint.constraints(withVisualFormat: "V:|-[label]-|", options: .alignAllTop, metrics: nil, views: views))
+        
+        return title
+    }
 	
     /*
     // MARK: - Navigation
