@@ -104,12 +104,12 @@ class NoticeViewController: UITableViewController {
         // Dispose of any resources that can be recreated.
     }
 	
-	func refreshData() {
+	@objc func refreshData() {
 		timer = Timer.scheduledTimer(timeInterval: 1.5, target: self, selector: #selector(NoticeViewController.endOfWork), userInfo: nil, repeats: true)
 		
 	}
 	
-	func endOfWork() {
+	@objc func endOfWork() {
 		
 		timer.invalidate()
 		timer = nil

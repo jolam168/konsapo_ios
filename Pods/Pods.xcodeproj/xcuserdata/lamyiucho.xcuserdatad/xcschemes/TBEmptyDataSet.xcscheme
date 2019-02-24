@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0700"
+   LastUpgradeVersion = "0930"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -13,11 +13,11 @@
             buildForProfiling = "YES"
             buildForArchiving = "YES">
             <BuildableReference
-               BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '7FDC02708E74B5F8E4832DC9C1E3B0A7'
-               BlueprintName = 'TBEmptyDataSet'
-               ReferencedContainer = 'container:Pods.xcodeproj'
-               BuildableName = 'TBEmptyDataSet.framework'>
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "4348899336C5A94A400D640E0B164E04"
+               BuildableName = "TBEmptyDataSet.framework"
+               BlueprintName = "TBEmptyDataSet"
+               ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>

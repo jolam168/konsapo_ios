@@ -9,10 +9,20 @@
 			<key>orderHint</key>
 			<integer>12</integer>
 		</dict>
+		<key>NotificationExtension.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>15</integer>
+		</dict>
 		<key>NotificationServiceExtension.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>13</integer>
+		</dict>
+		<key>NotificationServiceExtension.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>16</integer>
 		</dict>
 		<key>konkatsuten.xcscheme_^#shared#^_</key>
 		<dict>
